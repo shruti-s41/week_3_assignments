@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  border: 1px solid #999;
+  background-color: white;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.users {
+  flex: 1;
+}
+
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.user-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  background-color: #eee;
+}
+
+.user-card h3 {
+  margin-top: 0;
+}
+
+.user-card p {
+  margin: 8px 0;
+}
+
+.details {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post h3 {
+  margin-top: 0;
+}
+
+.todo {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .user-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .details {
+    width: auto;
+  }
+
+  .controls {
+    flex-direction: column;
+  }
+
+  input {
+    width: auto;
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Finish homework",
+    "description": "Finish the full-stack task manager assignment",
+    "completed": false,
+    "createdAt": "2026-08-23T18:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Go grocery shopping",
+    "description": "Buy food for the week",
+    "completed": false,
+    "createdAt": "2026-08-23T19:00:00.000Z"
+  }
+]
